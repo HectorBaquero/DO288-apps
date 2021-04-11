@@ -12,6 +12,7 @@ config_s2i
 
 echo "---> Installing application source"
 cp -Rf /tmp/src/*.html ./
+cp -Rf /tmp/src/*.py ./
 
 DATE=`date "+%d-%B-%Y @ %H:%M:%S %p"`
 
